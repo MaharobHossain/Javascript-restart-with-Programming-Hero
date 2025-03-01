@@ -23,24 +23,24 @@ else{
 
 // Simple Turnery use
 
-let age = 19;
+// let age = 19;
 
-condition ?         true           :      false
+// condition ?         true           :      false
 
- age >=18 ? console.log("Vote daw") : console.log(" Vote dioo nah");
-
-
+//  age >=18 ? console.log("Vote daw") : console.log(" Vote dioo nah");
 
 
-let price = 500;
-const isLeader = true;
 
-if(isLeader === true){
-    console.log("You are free to pay");
-}
-else{
-    console.log(price +100);
-}
+
+// let price = 500;
+// const isLeader = true;
+
+// if(isLeader === true){
+//     console.log("You are free to pay");
+// }
+// else{
+//     console.log(price +100);
+// }
 
 
 
