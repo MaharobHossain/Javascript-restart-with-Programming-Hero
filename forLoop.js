@@ -67,3 +67,13 @@ for (let i = 150 ; i <= 200 ; i++){
 sum = sum + i;
 }
 console.log("all number total:", sum);
+
+
+
+
+
+// _________Decremental for loop use___________
+
+for (let x = 20; x >= 10; x--){
+    console.log(x);
+}
