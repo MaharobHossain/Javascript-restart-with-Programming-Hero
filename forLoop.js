@@ -53,3 +53,17 @@ for ( const item of fruits ) {
     for (let numbers = 1 ; numbers <= 19 ; numbers = numbers + 2){
         console.log(numbers);
       }
+
+
+
+      
+
+
+//________________For loop Sum use_____________
+
+let sum = 0;
+for (let i = 150 ; i <= 200 ; i++){
+//    console.log(i);
+sum = sum + i;
+}
+console.log("all number total:", sum);
