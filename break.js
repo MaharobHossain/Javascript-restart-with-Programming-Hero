@@ -1,3 +1,4 @@
+// Break means end the element.
 // __________Use of break in for loop js___________
 
 for( i = 0 ; i < 150 ; i++){
