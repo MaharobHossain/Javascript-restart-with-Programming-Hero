@@ -77,3 +77,25 @@ console.log("all number total:", sum);
 for (let x = 20; x >= 10; x--){
     console.log(x);
 }
+
+
+
+
+// _________For loop odd number another use___________
+
+for ( y = 0; y < 12 ; y++ ){
+    if( y%2===1 ){
+        console.log(y);
+    }
+}
+
+
+// _________For loop odd number another use (not equal to : !==)___________
+
+for ( z = 0; z < 12 ; z++ ){
+    if( z%2!==0 ){
+        console.log(z);
+    }
+}
+
+
