@@ -99,3 +99,15 @@ for ( z = 0; z < 12 ; z++ ){
 }
 
 
+ // _________For loop sum of the number 1 to 50 devided by 3 ___________
+
+ let total = 0;
+ for( p = 1 ; p <= 20 ; p++ ){
+
+    if( p % 3 === 0 ){
+    //  console.log(p);
+    total = total + p;
+    console.log("Total num of sum: ", total);
+    }
+ }
+ console.log(total);
