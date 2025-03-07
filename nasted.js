@@ -24,3 +24,33 @@ console.log(jussh.flavour.test.refresh);
 
 delete jussh.price; // kono value delete korar jonno
 console.log(jussh);
+
+
+
+// task for result (1-3)
+
+const myObject = {
+    a: 1,
+    b: 2,
+    c: 3
+  };
+  
+  for (let prop in myObject) {
+    console.log(myObject[prop]);
+  }
+
+
+
+const x = ""
+if(!x.length){
+console.log("Hey")
+}else{
+console.log("Hi")
+}
+
+
+
+const str = "Hello";
+str[0] = "h";
+console.log(str);
+
