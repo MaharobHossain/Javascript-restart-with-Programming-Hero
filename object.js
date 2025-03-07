@@ -22,4 +22,12 @@
     console.log(bottle);
 
 
+    //----------Key use in js---------
+    const keys = Object.keys(bottle);
+    console.log(keys);
 
+
+
+      //----------values use in js---------
+      const values = Object.values(bottle);
+      console.log(values);
