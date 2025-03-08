@@ -28,3 +28,11 @@ const numbers = [35, 745, 6787, 23, 566];
 for (let x = 0; x < numbers.length; x++){
     console.log(numbers[x]);
 }
+
+// while loop use kore array ber kora
+const bonshus = [ "Lalu", "Kalu", "Calu", "Balu", "Dalu", "Malu"];
+let z = 0;
+while(z < bonshus.length){
+    console.log(bonshus[z]);
+    z++;
+}
