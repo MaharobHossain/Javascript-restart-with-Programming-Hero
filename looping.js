@@ -14,5 +14,11 @@ const friends = [ "Lalu", "Kalu", "Calu", "Balu", "Dalu", "Malu"];
 
 // Normally For of loop use
 for(const friend of friends){
-    console.log(friend);
+    // console.log(friend);
+}
+
+// for loop use kore array ber kora
+for (let i = 0; i < friends.length; i++){
+    console.log(i);
+    console.log(friends[i]);
 }
