@@ -22,3 +22,9 @@ for (let i = 0; i < friends.length; i++){
     console.log(i);
     console.log(friends[i]);
 }
+
+const numbers = [35, 745, 6787, 23, 566];
+
+for (let x = 0; x < numbers.length; x++){
+    console.log(numbers[x]);
+}
