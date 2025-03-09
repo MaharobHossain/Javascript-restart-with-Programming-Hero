@@ -9,10 +9,18 @@
  */
 
 
-
 function borgo( number ){
     console.log('Value of the number peramitter: ', number);
     const square = number * number;
     console.log('Squar of the given number is: ', square);
 }
-borgo(30);
+// borgo(30);
+// borgo(150);
+
+
+function plusNumber(num1, num2, num3){
+    const sum = num1 + num2 +num3;
+    console.log(sum);
+}
+plusNumber(10, 21, 40);
+plusNumber(1000, 600, 200);
