@@ -6,8 +6,8 @@ function multiplyNumbers(num1, num2, num3, num4) {
     return multiple;
 }
 
-console.log(multiplyNumbers(9, 5, 4, 7)); 
-console.log(multiplyNumbers(8, 7, 8, 7));
+// console.log(multiplyNumbers(9, 5, 4, 7)); 
+// console.log(multiplyNumbers(8, 7, 8, 7));
 
 
 
@@ -32,8 +32,8 @@ function processNumber(num) {
     return num;
 }
 
-console.log(processNumber(15)); // Output: 30 (odd, so multiplied by 2)
-console.log(processNumber(18)); // Output: 9 (even, so divided by 2)
+// console.log(processNumber(15)); // Output: 30 (odd, so multiplied by 2)
+// console.log(processNumber(18)); // Output: 9 (even, so divided by 2)
 
 
 
@@ -50,6 +50,33 @@ function make_avg(arr, size) {
     return sum / size;
 }
 
-console.log(make_avg([10, 20, 30, 40, 50], 5)); // Output: 30
-console.log(make_avg([5, 15, 25], 3)); // Output: 15
-console.log(make_avg([5, 15, 25, 38], 3)); // Output: Error: Array size does not match the given size
+// console.log(make_avg([10, 20, 30, 40, 50], 5)); // Output: 30
+// console.log(make_avg([5, 15, 25], 3)); // Output: 15
+// console.log(make_avg([5, 15, 25, 38], 3)); // Output: Error: Array size does not match the given size
+
+
+
+
+
+
+//    ------------Task 4------->
+//  Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
+
+
+
+
+function count_zero(binaryString) {
+    let count = 0;
+
+    for (let char of binaryString) {
+        if (char === '0') {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+console.log(count_zero("1010100")); // Output: 3
+console.log(count_zero("00001111")); // Output: 4
+console.log(count_zero("1111")); // Output: 0
