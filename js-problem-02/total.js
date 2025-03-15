@@ -1,4 +1,4 @@
-
+//  object theke all product price jog kora
 
 const products = [
     {name:'Book', price:300},
