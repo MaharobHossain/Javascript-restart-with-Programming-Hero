@@ -5,9 +5,9 @@ function celsiusToFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
 }
 
-console.log(celsiusToFahrenheit(0));   // Output: 32
-console.log(celsiusToFahrenheit(250));  // Output: 77
-console.log(celsiusToFahrenheit(-10)); // Output: 14
+// console.log(celsiusToFahrenheit(0));   // Output: 32
+// console.log(celsiusToFahrenheit(250));  // Output: 77
+// console.log(celsiusToFahrenheit(-10)); // Output: 14
 
 
 
@@ -37,8 +37,35 @@ function countOccurrences(arr, target) {
     return arr.filter(num => num === target).length;
 }
 
-// Sample inputs
-console.log(countOccurrences([5, 6, 11, 12, 98, 5], 5));  // Output: 2
-console.log(countOccurrences([5, 6, 11, 12, 98, 5], 25)); // Output: 0
+//console.log(countOccurrences([5, 6, 11, 12, 98, 5], 5));  // Output: 2
+//console.log(countOccurrences([5, 6, 11, 12, 98, 5], 25)); // Output: 0
 
+
+
+
+
+
+
+//---------Task-3:
+// Write a function to count the number of vowels in a string.
+
+
+function countVowels(str) {
+    let vowels = "aeiouAEIOU";
+    let count = 0;
+    
+    for (let char of str) {
+        if (vowels.includes(char)) {
+            count++;
+        }
+    }
+    
+    return count;
+}
+
+
+console.log(countVowels("hello"));         // Output: 2
+console.log(countVowels("javascript"));    // Output: 3
+console.log(countVowels("bcdfg"));         // Output: 0
+console.log(countVowels("AEIOUaeiou"));    // Output: 10
 
