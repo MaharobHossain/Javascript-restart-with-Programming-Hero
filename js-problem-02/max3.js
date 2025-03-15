@@ -33,3 +33,10 @@ function getMaxOfThree( num1, num2, num3){
 }
 const max1 = getMaxOfThree(99, 57, 98);
 console.log(max1);
+
+
+
+// Unlimited number theke max number ber kora
+
+const max = Math.max(21, 43, 87, 98, 36, 875, 999);
+console.log("The max number is: ", max);
