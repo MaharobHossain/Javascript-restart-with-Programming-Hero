@@ -5,9 +5,9 @@ function celsiusToFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
 }
 
-// console.log(celsiusToFahrenheit(0));   // Output: 32
-// console.log(celsiusToFahrenheit(250));  // Output: 77
-// console.log(celsiusToFahrenheit(-10)); // Output: 14
+console.log(celsiusToFahrenheit(0));   // Output: 32
+console.log(celsiusToFahrenheit(250));  // Output: 77
+console.log(celsiusToFahrenheit(-10)); // Output: 14
 
 
 
@@ -37,8 +37,8 @@ function countOccurrences(arr, target) {
     return arr.filter(num => num === target).length;
 }
 
-//console.log(countOccurrences([5, 6, 11, 12, 98, 5], 5));  // Output: 2
-//console.log(countOccurrences([5, 6, 11, 12, 98, 5], 25)); // Output: 0
+console.log(countOccurrences([5, 6, 11, 12, 98, 5], 5));  // Output: 2
+console.log(countOccurrences([5, 6, 11, 12, 98, 5], 25)); // Output: 0
 
 
 
@@ -69,3 +69,15 @@ console.log(countVowels("javascript"));    // Output: 3
 console.log(countVowels("bcdfg"));         // Output: 0
 console.log(countVowels("AEIOUaeiou"));    // Output: 10
 
+
+
+
+
+//---------Task-4:
+// Generate a random number between 10 to 20.
+
+function generateRandomNumber() {
+    return Math.floor(Math.random() * (20 - 10 + 1)) + 10;
+}
+
+console.log(generateRandomNumber());  // Output: A random number between 10 and 20
