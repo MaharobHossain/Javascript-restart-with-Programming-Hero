@@ -1,4 +1,4 @@
-// Valid Number provider alert
+//---------- Valid Number provider alert msg (Number)
 
 function multiply(num1, num2){
 
@@ -15,7 +15,7 @@ const result = multiply(7, 'ten');
 
 
 
-// Valid string provider alert (Full Name)
+// ----------Valid string provider alert msg (Full Name/String)
 
 function fullName( firstName, lastName){
 
@@ -31,4 +31,24 @@ function fullName( firstName, lastName){
 }
 
 let full = fullName(4, 'Ali');
-console.log(full);
+//console.log(full);
+
+
+
+
+
+
+// ----------Valid Object provider alert msg (price/object)
+
+function getPrice(product){
+    //  console.log(typeof product);
+    if( typeof product !== 'object' ){
+        return "Please provied a valid object";
+    }
+    let price = product.price;
+    return price;
+}
+
+//let price = getPrice({name:"Tiger Bumm", size: "XLL", price: 'fifty', color:"Red"});
+let price = getPrice(5);
+console.log(price);
