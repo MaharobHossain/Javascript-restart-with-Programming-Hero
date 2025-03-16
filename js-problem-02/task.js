@@ -31,6 +31,35 @@ console.log("The cheapest price is:", cheap);
 
 
 /**
+ * Task -2:
+Find the friend with the smallest name.
+const friends = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];
+ */
+
+const friends = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];
+
+function findSmallestName(arr) {
+    let smallest = arr[0]; // Assume the first name is the smallest
+
+    for (let name of arr) {
+        if (name.length < smallest.length) {
+            smallest = name; // Update if a shorter name is found
+        }
+    }
+
+    return smallest;
+}
+
+let smallName = findSmallestName(friends);
+console.log("The small Name is: ", smallName); // Output: 'ron'
+// console.log(findSmallestName(friends)); // Output: 'ron'
+
+
+
+
+
+
+/**
  * Task-3:
 Your task is to calculate the total budget required to buy electronics:
 
