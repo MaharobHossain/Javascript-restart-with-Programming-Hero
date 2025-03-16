@@ -11,7 +11,7 @@ function multiply(num1, num2){
 }
 
 const result = multiply(7, 'ten');
-//console.log(result);
+console.log(result);
 
 
 
@@ -31,7 +31,7 @@ function fullName( firstName, lastName){
 }
 
 let full = fullName(4, 'Ali');
-//console.log(full);
+console.log(full);
 
 
 
@@ -52,3 +52,21 @@ function getPrice(product){
 //let price = getPrice({name:"Tiger Bumm", size: "XLL", price: 'fifty', color:"Red"});
 let price = getPrice(5);
 console.log(price);
+
+
+
+
+// ----------Valid Array provider alert msg (True-False/Array)
+
+function getSecond(number){
+
+    //  console.log(typeof number);
+    if(Array.isArray(number) === false){
+        return 'Please provied a valid Array';
+    }
+    let second = number[2];
+    return second;
+}
+  // let second = getSecond([43, 67, 89, 26]);
+  let second = getSecond(88,34, 65, 68);
+console.log(second);
